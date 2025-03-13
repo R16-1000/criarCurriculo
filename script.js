@@ -69,19 +69,15 @@ btn.addEventListener('click', () => {
     <hr>
     <br> ${dados.objetivo}
     <br>
-   </form>
-
     <br><br><button type="button" onclick="gerarPDF()" id="invisivel">Gerar PDF</button>
+   </form>
     ` 
 
 })
 
 
 const gerarPDF = () => {
-
-  
-
-
+    
     const visivel = document.getElementById('invisivel')
     visivel.style.display = 'none'
     
@@ -92,7 +88,3 @@ const gerarPDF = () => {
     
     doc.save('curriculo.pdf');
 };
-
-    
-
-
