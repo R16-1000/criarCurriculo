@@ -6,6 +6,7 @@
 body{
     background-color: #333;
     font-family: Arial, sans-serif;
+    color: #fff;
 }
 
 div{
@@ -35,12 +36,12 @@ textarea{
 }
 
 button  {
-    text-align: center;
+    width: 100%;
     padding: 10px;
     background-color: #62ff00;
     color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 50%;
+    
 }
