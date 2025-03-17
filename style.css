@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #333;
     font-family: Arial, sans-serif;
 }
 
@@ -28,12 +29,17 @@ input[type="text"]{
     padding: 10px;
     margin: 10px 0;
 }
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
 
 button  {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #62ff00;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
